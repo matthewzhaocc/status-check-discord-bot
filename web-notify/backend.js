@@ -1,6 +1,6 @@
 const ping = require('ping');
 const Discord = require('discord.js');
-const token = "NTgwNTU3NTY5OTcwNTM2NDYw.XRFHMw.y9WVxLftv6MnPsu7tmwMTeh5h6g";
+const token = "";
 const client = new Discord.Client();
 client.on("message", (message)=>{
   if (message.content.startsWith('$status')){
